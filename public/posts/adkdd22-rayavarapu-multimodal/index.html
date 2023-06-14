@@ -4,24 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation - speculative understandings</title>
+	<title>Multimodal Transformers for Detecting Bad Quality Ads on YouTube - speculative understandings</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation" />
-<meta property="og:description" content="学会: AdKDD 2022 https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022 内容 色々なドメインの知識を転移させて、推薦システムを作りたい。 トンプソンサンプリングでは自身のアームの結果を用いて Beta(Σclick, Σ(imp - click)) で事後分布を推定する。 提案手法ではユーザのコサイン類似度 S(u, v) を用いて自身以外" />
+		<meta property="og:title" content="Multimodal Transformers for Detecting Bad Quality Ads on YouTube" />
+<meta property="og:description" content="学会: AdKDD 2022 http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf 内容 Youtubeのビデオ広告の審査をマルチモーダルのDNNでやった 正解ラベルは人手でつけたbad ads rate 広告タイトルと説明をBERTに入れた 動画を60フレームサンプリングして、ResNetに入れた 文字列特徴量と画像特徴量をいつマー" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/dynamic-collaborative-filtering-thompson-sampling-for-cross-domain-advertisements-recommendation/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-06-13T10:23:18+09:00" />
-<meta property="article:modified_time" content="2023-06-13T10:23:18+09:00" />
+<meta property="og:url" content="/posts/adkdd22-rayavarapu-multimodal/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-14T12:44:04+09:00" />
+<meta property="article:modified_time" content="2023-06-14T12:44:04+09:00" />
 
-		<meta itemprop="name" content="Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation">
-<meta itemprop="description" content="学会: AdKDD 2022 https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022 内容 色々なドメインの知識を転移させて、推薦システムを作りたい。 トンプソンサンプリングでは自身のアームの結果を用いて Beta(Σclick, Σ(imp - click)) で事後分布を推定する。 提案手法ではユーザのコサイン類似度 S(u, v) を用いて自身以外"><meta itemprop="datePublished" content="2023-06-13T10:23:18+09:00" />
-<meta itemprop="dateModified" content="2023-06-13T10:23:18+09:00" />
-<meta itemprop="wordCount" content="158">
-<meta itemprop="keywords" content="AdKDD,AdKDD 2022,論文,推薦,バンディットアルゴリズム," />
+		<meta itemprop="name" content="Multimodal Transformers for Detecting Bad Quality Ads on YouTube">
+<meta itemprop="description" content="学会: AdKDD 2022 http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf 内容 Youtubeのビデオ広告の審査をマルチモーダルのDNNでやった 正解ラベルは人手でつけたbad ads rate 広告タイトルと説明をBERTに入れた 動画を60フレームサンプリングして、ResNetに入れた 文字列特徴量と画像特徴量をいつマー"><meta itemprop="datePublished" content="2023-06-14T12:44:04+09:00" />
+<meta itemprop="dateModified" content="2023-06-14T12:44:04+09:00" />
+<meta itemprop="wordCount" content="341">
+<meta itemprop="keywords" content="AdKDD,AdKDD 2022,論文,Trust &amp; Safety,Transformer,BERT,MultiModal," />
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation"/>
-<meta name="twitter:description" content="学会: AdKDD 2022 https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022 内容 色々なドメインの知識を転移させて、推薦システムを作りたい。 トンプソンサンプリングでは自身のアームの結果を用いて Beta(Σclick, Σ(imp - click)) で事後分布を推定する。 提案手法ではユーザのコサイン類似度 S(u, v) を用いて自身以外"/>
+<meta name="twitter:title" content="Multimodal Transformers for Detecting Bad Quality Ads on YouTube"/>
+<meta name="twitter:description" content="学会: AdKDD 2022 http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf 内容 Youtubeのビデオ広告の審査をマルチモーダルのDNNでやった 正解ラベルは人手でつけたbad ads rate 広告タイトルと説明をBERTに入れた 動画を60フレームサンプリングして、ResNetに入れた 文字列特徴量と画像特徴量をいつマー"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -56,10 +56,10 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation</h1>
+			<h1 class="post__title">Multimodal Transformers for Detecting Bad Quality Ads on YouTube</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-06-13T10:23:18&#43;09:00">2023-06-13</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-06-14T12:44:04&#43;09:00">2023-06-14</time></div></div>
 		</header>
 		
 <div class="post__toc toc">
@@ -74,13 +74,21 @@
 </div><div class="content post__content clearfix">
 			<ul>
 <li>学会: AdKDD 2022</li>
-<li><a href="https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022">https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022</a></li>
+<li><a href="http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf">http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf</a></li>
 </ul>
 <h2 id="内容">内容</h2>
 <ul>
-<li>色々なドメインの知識を転移させて、推薦システムを作りたい。</li>
-<li>トンプソンサンプリングでは自身のアームの結果を用いて <code>Beta(Σclick, Σ(imp - click))</code> で事後分布を推定する。</li>
-<li>提案手法ではユーザのコサイン類似度 <code>S(u, v)</code> を用いて自身以外の報酬を重み付ける。つまり、<code>Beta(Σ S(u, v)*click, Σ S(u, v)*(imp - click))</code> で事後分布を推定する。</li>
+<li>Youtubeのビデオ広告の審査をマルチモーダルのDNNでやった</li>
+<li>正解ラベルは人手でつけたbad ads rate</li>
+<li>広告タイトルと説明をBERTに入れた</li>
+<li>動画を60フレームサンプリングして、ResNetに入れた</li>
+<li>文字列特徴量と画像特徴量をいつマージするかで、Early Fusion、Mid Fusion、Late Fusionを試したら、Mid Fusionが良かった。
+<ul>
+<li>Early Fusion: 各特徴量をすぐにconcatenateしてAverage Pooling</li>
+<li>Mid Fusion: 各特徴量ごとにSelf-Attension Layerを何層か噛ませてからConcatenateして、Co-Attension Layerを何層か噛ませてAverage Pooling</li>
+<li>Late Fusion: 各特徴量ごとにSelf-Attension Layerを何層か噛ませてからAverage Pooling</li>
+</ul>
+</li>
 </ul>
 
 		</div>
@@ -99,10 +107,16 @@
 			<a class="tags__link btn" href="/tags/%E8%AB%96%E6%96%87/" rel="tag">論文</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/%E6%8E%A8%E8%96%A6/" rel="tag">推薦</a>
+			<a class="tags__link btn" href="/tags/trust-safety/" rel="tag">Trust &amp; Safety</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/%E3%83%90%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/" rel="tag">バンディットアルゴリズム</a>
+			<a class="tags__link btn" href="/tags/transformer/" rel="tag">Transformer</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/bert/" rel="tag">BERT</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/multimodal/" rel="tag">MultiModal</a>
 		</li>
 	</ul>
 </div>
@@ -112,9 +126,9 @@
 
 
 <nav class="pager flex">
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/posts/adkdd22-gao-bidding/" rel="next">
-			<span class="pager__subtitle">Next&thinsp;»</span>
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/adkdd22-gao-bidding/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
 			<p class="pager__title">Bidding Agent Design in the LinkedIn Ad Marketplace</p>
 		</a>
 	</div>

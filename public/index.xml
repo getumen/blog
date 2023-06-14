@@ -6,7 +6,25 @@
     <description>Recent content on speculative understandings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 13 Jun 2023 10:23:18 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jun 2023 12:44:04 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal Transformers for Detecting Bad Quality Ads on YouTube</title>
+      <link>/posts/adkdd22-rayavarapu-multimodal/</link>
+      <pubDate>Wed, 14 Jun 2023 12:44:04 +0900</pubDate>
+      
+      <guid>/posts/adkdd22-rayavarapu-multimodal/</guid>
+      <description>学会: AdKDD 2022 http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf 内容 Youtubeのビデオ広告の審査をマルチモーダルのDNNでやった 正解ラベルは人手でつけたbad ads rate 広告タイトルと説明をBERTに入れた 動画を60フレームサンプリングして、ResNetに入れた 文字列特徴量と画像特徴量をいつマー</description>
+    </item>
+    
+    <item>
+      <title>Bidding Agent Design in the LinkedIn Ad Marketplace</title>
+      <link>/posts/adkdd22-gao-bidding/</link>
+      <pubDate>Wed, 14 Jun 2023 10:06:34 +0900</pubDate>
+      
+      <guid>/posts/adkdd22-gao-bidding/</guid>
+      <description>学会: AdKDD 2022 http://papers.adkdd.org/2022/papers/adkdd22-gao-bidding.pdf 内容 自動入札をオンライン最適化アルゴリズムのFTRLで解くという論文 入札確率の累積分布は狭義単調増加＋log-concave、期待支払額は広義単調増加、requestの総数はわかっているという仮定のもと 予算制約 (Sec. 3) 目標resul</description>
+    </item>
+    
     <item>
       <title>Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation</title>
       <link>/posts/dynamic-collaborative-filtering-thompson-sampling-for-cross-domain-advertisements-recommendation/</link>

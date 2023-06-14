@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on speculative understandings</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on speculative understandings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 13 Jun 2023 10:23:18 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdKDD</title>
+      <link>/tags/adkdd/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/tags/adkdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdKDD 2022</title>
+      <link>/tags/adkdd-2022/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/tags/adkdd-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>バンディットアルゴリズム</title>
+      <link>/tags/%E3%83%90%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/tags/%E3%83%90%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>推薦</title>
+      <link>/tags/%E6%8E%A8%E8%96%A6/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/tags/%E6%8E%A8%E8%96%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>論文</title>
+      <link>/tags/%E8%AB%96%E6%96%87/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/tags/%E8%AB%96%E6%96%87/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

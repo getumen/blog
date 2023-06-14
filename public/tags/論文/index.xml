@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>論文 on speculative understandings</title>
+    <link>/tags/%E8%AB%96%E6%96%87/</link>
+    <description>Recent content in 論文 on speculative understandings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 13 Jun 2023 10:23:18 +0900</lastBuildDate><atom:link href="/tags/%E8%AB%96%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic collaborative filtering Thompson Sampling for cross-domain advertisements recommendation</title>
+      <link>/posts/dynamic-collaborative-filtering-thompson-sampling-for-cross-domain-advertisements-recommendation/</link>
+      <pubDate>Tue, 13 Jun 2023 10:23:18 +0900</pubDate>
+      
+      <guid>/posts/dynamic-collaborative-filtering-thompson-sampling-for-cross-domain-advertisements-recommendation/</guid>
+      <description>学会: AdKDD 2022 https://www.adkdd.org/Papers/Dynamic-collaborative-filtering-Thompson-Sampling-for-cross-domain-advertisements-recommendation/2022 内容 色々なドメインの知識を転移させて、推薦システムを作りたい。 トンプソンサンプリングでは自身のアームの結果を用いて Beta(Σclick, Σ(imp - click)) で事後分布を推定する。 提案手法ではユーザのコサイン類似度 S(u, v) を用いて自身以外</description>
+    </item>
+    
+  </channel>
+</rss>

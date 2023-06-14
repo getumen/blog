@@ -1,0 +1,38 @@
+baseURL = '/'
+languageCode = 'ja-jp'
+title = 'speculative understandings'
+paginate = "10"                      # Number of posts per page
+theme = "mainroad"
+hasCJKLanguage = true                # 日本語・中国語・韓国語の単語カウントを有効にする
+summaryLength = 120                  # サマリーの長さを120単語にする
+
+[Params]
+# description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+# copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+opengraph = true # Enable OpenGraph if true
+schema = true # Enable Schema
+twitter_cards = true # Enable Twitter Cards if true
+readmore = true # Show "Read more" button in list if true
+authorbox = false # Show authorbox at bottom of pages if true
+toc = true # Enable Table of Contents
+pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+post_meta = ["author", "date", "categories"] # Order of post meta information
+mainSections = [
+    "posts",
+    "docs",
+    "blogs",
+] # Specify section pages to show on home page and the "Recent articles" widget
+dateformat = "2006-01-02" # Change the format of dates
+mathjax = true # Enable MathJax
+mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+# customCSS = ["css/custom.css"] # Include custom CSS files
+# customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.sidebar]
+home = "right"
+list = "right"
+single = "right"
+# Enable widgets in given order
+widgets = ["recent", "categories", "taglist"]

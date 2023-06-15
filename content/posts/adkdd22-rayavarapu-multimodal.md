@@ -6,7 +6,6 @@ draft: false
 tags: ["AdKDD", "AdKDD 2022", "論文", "Trust & Safety", "Transformer", "BERT", "MultiModal"]
 ---
 
-
 - 学会: AdKDD 2022
 - http://papers.adkdd.org/2022/papers/adkdd22-rayavarapu-multimodal.pdf
 

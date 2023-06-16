@@ -3,7 +3,7 @@ title: "Multimodal Transformers for Detecting Bad Quality Ads on
 YouTube"
 date: 2023-06-14T12:44:04+09:00
 draft: false
-tags: ["AdKDD", "AdKDD 2022", "論文", "Trust & Safety", "Transformer", "BERT", "MultiModal"]
+tags: ["AdKDD", "AdKDD 2022", "論文", "Trust & Safety", "Transformer", "BERT", "MultiModal", "動画広告"]
 ---
 
 - 学会: AdKDD 2022

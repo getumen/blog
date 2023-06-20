@@ -2,7 +2,7 @@
 title: "Bidding Agent Design in the LinkedIn Ad Marketplace"
 date: 2023-06-14T10:06:34+09:00
 draft: false
-tags: ["AdKDD", "AdKDD 2022", "論文", "自動入札", "オンライン学習", "凸最適化", "制約付き凸最適化"]
+tags: ["AdKDD", "AdKDD 2022", "論文", "自動入札", "オンライン学習", "凸最適化", "制約付き最適化"]
 ---
 
 - 学会: AdKDD 2022

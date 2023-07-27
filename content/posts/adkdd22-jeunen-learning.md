@@ -41,7 +41,7 @@ tags: ["AdKDD", "AdKDD 2022", "論文", "Auction", "強化学習", "因果推論
   - モデルベースのアプローチは直ぐに収束するが、最適ではない（1st price auctionだと期待２位価格を入札するのが最適なので、2nd price auctionの最適戦略と比べてはダメなのでは？）
 - RQ3: 社会的メトリックへのEstimatorの影響
   - Doubly Robust Estimatorが最も良い
-- 個別のメトリックへのEstimatorの影響
+- RQ4: 個別のメトリックへのEstimatorの影響
   - Direct MethodはVarianceが低い代わりにバイアスが高く、収束は早いが、入札額が上振れ傾向
   - Inverse Propensity Scoringはバイアスが低いが、Varianceが高く、入札額は上振れ傾向にないが、100万反復後も下振れ傾向にある
   - Doubly Robust EstimatorはROASが高く、入札額は上振れ傾向にない

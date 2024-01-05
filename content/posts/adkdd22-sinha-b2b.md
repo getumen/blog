@@ -5,7 +5,6 @@ draft: false
 tags: ["AdKDD", "AdKDD 2022", "論文", "B2B", "行動ターゲティング", "group decision making"]
 ---
 
-
 - 学会: AdKDD 2022
 - http://papers.adkdd.org/2022/papers/adkdd22-sinha-b2b.pdf
 

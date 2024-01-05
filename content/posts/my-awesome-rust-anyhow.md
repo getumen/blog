@@ -2,6 +2,7 @@
 title: "My Awesome Rust: anyhow"
 date: 2024-01-03T18:37:17+09:00
 draft: false
+tags: ["Rust", "My Awesome Rust"]
 ---
 
 anyhow (https://github.com/dtolnay/anyhow) はRustのエラー処理を扱うライブラリです。

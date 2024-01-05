@@ -2,6 +2,7 @@
 title: "My Awesome Rust: thiserror"
 date: 2024-01-04T14:59:32+09:00
 draft: false
+tags: ["Rust", "My Awesome Rust"]
 ---
 
 Rustで独自のエラーを自作する際に以下のようなやらないといけないことが多くあり、面倒です。

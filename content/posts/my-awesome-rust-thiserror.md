@@ -46,6 +46,6 @@ pub enum DataStoreError {
 
 - `Disconnect`では `error`という属性でDisplayトレイトを`"data store disconnected"`というエラーメッセージで実装しています。また、`io::Error`に対するFromトレイトを実装しています。
 - Redactionでは `error`という属性でDisplayトレイトを実装する際にタプルの値を利用しています。`#[error("{0}")] ⟶ write!("{}", self.0)` という意味なので、０番目の値のDisplayトレイトの実装を呼び出しています。
-- InvalidHeaderでは、`expected`と`found`のDebugトレイトの実装を呼び出してエラーメッセージを作成しています。
+- InvalidHeaderでは、`expected`と`found`のDebugトレイトの実装を呼び出してエラーメッセージを作成しています。`#[error("{var:?}")] ⟶ write!("{:?}", self.var)`という意味を表しています。
 
 エラーをラップしていくために`source`や`backtrace`といった属性が用意されていますが、個人的にはanyhowを使えば良い気がしています。
